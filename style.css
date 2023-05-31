@@ -1,0 +1,107 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.textColor {
+    color: #030F27;
+}
+
+.navbarBgDark {
+    background: #030F27;
+}
+
+
+.dropdown-menu{
+    background-color: #030F27;
+}
+
+.dropdown-menu .dropdown-item{
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color:#030F27;
+}
+
+.navbar-nav .nav-link.active {
+    color: #EDA72F;
+}
+
+.nav-link {
+    position: relative;
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: #fff;
+    background-image: linear-gradient( transparent 50%, #EDA72F 50%);
+    background-position: 20% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px; /* Adjust the width and height of the underline */
+    padding-bottom: 10px; /* Adjust the space between the text and the underline */
+  }
+  
+  
+
+
+.getBtn {
+    color: #fff;
+}
+
+.sideLine {
+    border-right: 1px solid #030F27;
+}
+
+.iconHeight {
+    height: 24px;
+    width: 24px;
+}
+
+.sliding_part{
+    height: 400px;
+}
+
+
+.row_products{
+    height: 1000px;
+}
+
+
+@media screen and (min-width: 700px){
+    .row_products{
+        height: 1000px
+    }
+}
+
+@media screen and (min-width: 800px){
+    .row_products{
+        height: 50px
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    .sideLine {
+        border-right: none;
+    }
+
+    .iconHeight {
+        height: 46px;
+        width: 46px;
+    }
+    .sliding_part{
+        height: 850px;
+    }
+
+    .row_products{
+        height: 400px;
+    }
+}
+
+
+/* .row_products{
+    height: 500px;
+} */
